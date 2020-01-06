@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'LongCang-Regular';
+  src: url('LongCang-Regular.eot');
+  src: url('LongCang-Regular.eot?#iefix') format('embedded-opentype'),
+       url('LongCang-Regular.svg#LongCang-Regular') format('svg'),
+       url('LongCang-Regular.ttf') format('truetype'),
+       url('LongCang-Regular.woff') format('woff'),
+       url('LongCang-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
