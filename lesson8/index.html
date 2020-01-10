@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Title</title>
+    <style>
+
+        .header{
+            height: 50px;
+            background-color: cornflowerblue;
+        }
+        .menu{
+            width: 200px;
+            background-color: yellow;
+            height: 300px;
+            float: left;
+        }
+        .banner{
+            width: 200px;
+            background-color: violet;
+            height: 300px;
+            float: right;
+        }
+        .content{
+            padding: 30px;
+        }
+        .footer{
+            height: 50px;
+            background-color: cornflowerblue;
+        }
+        .container{
+            background-color: yellowgreen;
+        }
+
+        @media all and (max-width: 1200px) {
+            .header{
+                background-color: red;
+            }
+            .menu{
+                background-color: green;
+            }
+            .footer{
+                height: 200px;
+            }
+            .content{
+                background-color: aqua;
+            }
+        }
+        @media all and (max-width: 800px) {
+
+            .menu{
+                width: auto;
+                float: none;
+            }
+            .banner{
+                width: auto;
+                float: none;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="header">header</div>
+<div class="container">
+    <div class="menu">menu</div>
+    <div class="banner">banner</div>
+    <div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem provident, repellat. At autem, beatae deleniti dolores id maxime modi nisi odio placeat praesentium quos ratione recusandae, reiciendis rem repudiandae totam!</div>
+    <div style="clear: both"></div>
+</div>
+<div class="footer">footer</div>
+
+</body>
+</html>
